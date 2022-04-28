@@ -1,0 +1,40 @@
+USER 0
+test_monkey10@gazeta.pl
+Filip Kowalczyk
+filip18_3170
+
+USER 1
+test_monkey11@gazeta.pl
+Michal Krol
+michal_xxx6198
+
+USER 2
+test_monkey12@gazeta.pl
+Jula Zajac
+julalover4875
+
+USER 3
+test_monkey13@gazeta.pl
+Wojtek Kaczmarek
+wojtek_stunt9959
+
+USER 4
+test_monkey14@gazeta.pl
+Mati Kowalczyk
+matilover5247
+
+USER 5
+test_monkey15@gazeta.pl
+Mati Nowak
+matix8879
+
+USER 6
+test_monkey16@gazeta.pl
+Mati Wojcik
+mati18_4109
+
+USER 0
+test_monkey10@gazeta.pl
+Mati Nowak
+matifree2903
+

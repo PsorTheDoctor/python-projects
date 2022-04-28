@@ -1,0 +1,43 @@
+#:kivy 1.0.9
+
+<SplashScreen>:
+    canvas:
+        Rectangle:
+            pos: (0, 50)
+            size: (root.width, root.height - 50)
+            source: "graphics/background.png"
+
+    Label:
+        text: "Witaj w systemie Matia"
+        font_size: 20
+
+    Button:
+        pos: (0, 0)
+        size: (root.width, 50)
+        size_hint: (None, None)
+        text: "DALEJ"
+        on_press:
+            root.manager.transition.direction = "left"
+            root.manager.transition.duration = 1
+            root.manager.current = "main_screen"
+
+<MainScreen>:
+    Camera:
+        id: camera
+        pos: (0, 25)
+        size: (root.width, root.height)
+        resolution: (640, 480)
+        play: True
+
+    Label:
+        pos: (50, root.height - 100)
+        size_hint: (None, None)
+        text: root.res_label
+
+    Button:
+        id: describe_btn
+        pos: (0, 0)
+        size: (root.width, 50)
+        size_hint: (None, None)
+        text: "DESKRYPCJA"
+        on_press: root.describe(describe_btn)
